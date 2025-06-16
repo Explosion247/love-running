@@ -48,10 +48,16 @@ h1 {
   letter-spacing: 2px;
   color: #252525;
 }
+#menu > li {
+  margin-bottom: 1em;
+}
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
+}
+.active {
+  border-bottom: 1px solid #3a3a3a;
 }
 /* Main Content */
 main {
