@@ -137,7 +137,7 @@ main {
   margin: 5px 0;
 }
 #circle-cover-bg {
-  background-image: url("../image/reasons-image.webp");
+  background: url("../image/reasons-image.webp");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -153,6 +153,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#times {
+  background: url("../image/dublin-city.webp") no-repeat center/cover;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* Footer */
 #social-networks {
